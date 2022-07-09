@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-page</title>
+    <style>
+        body{
+            background-color: #00A896;
+            color: #FF6542;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h2{
+            font-size: 25px;
+            text-align: center;
+            font-family: monospace;
+        }
+
+        .lis{
+            display: flex;
+            flex-direction: row;
+            gap:50px;
+            justify-content: center;
+            
+        }
+        div li,a{
+            list-style-type: none;
+            text-decoration: none;
+        }
+        a{
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>About Page</h1>
+    <h2>This is the About page of the node application</h2>
+
+    <div >
+        <ul class="lis">
+            <li><a href="http://localhost:3000/">Home</a></li>
+            <li><a href="http://localhost:3000/about">About-me</a></li>
+            <li><a href="http://localhost:3000/contact-me">contact-me</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
